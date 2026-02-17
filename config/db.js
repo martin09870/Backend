@@ -5,7 +5,7 @@ require('dotenv').config();
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   // Tu peux ajouter d'autres options si nécessaire, par exemple :
-  // ssl: { rejectUnauthorized: false } pour certaines connexions cloud
+   ssl: { rejectUnauthorized: false } // pour certaines connexions cloud
 });
 
 // Vérification de la connexion au démarrage
