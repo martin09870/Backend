@@ -39,7 +39,7 @@ const ChangeLimiteGroupe = require('./routes/changeLimiteGroupe');
 
 dotenv.config();
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 // Middleware pour autoriser le CORS (connexon avec le front)
 app.use(cors());
