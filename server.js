@@ -91,9 +91,9 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-transporter.verify()
+/* transporter.verify()
   .then(() => console.log("Connexion SMTP OK"))
-  .catch(err => console.error("Erreur SMTP :", err));
+  .catch(err => console.error("Erreur SMTP :", err)); */
 
 // Démarrage du serveur
 app.listen(PORT, () => {
